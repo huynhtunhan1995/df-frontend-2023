@@ -1,3 +1,141 @@
+
+
+/* Styles for labels */
+.label {
+    font-weight: bold;
+    display: block; /* Make labels block-level for proper spacing */
+    margin-bottom: 8px; /* Add some space between labels and inputs */
+    color: #333; /* Text color for labels */
+}
+
+/* Styles for input fields */
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none; /* Remove input outline when focused */
+}
+
+/* Add some padding to the inputs for better appearance */
+.input[type="text"] {
+    padding: 10px;
+}
+
+.App {
+    display: inline-flex;
+    justify-content: space-between;
+    background: #888888;
+    width: 100%;
+}
+.content {
+    width: 70%;
+    padding-left: 15%;
+}
+
+/* NewBookModal.css */
+.modal-overlay {
+    box-sizing: border-box;
+    width: 40%;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    z-index: 1;
+}
+
+.modal{
+    border: 1px solid #888;
+    background-color: #fff; /* Background color of the modal */
+    border-radius: 8px;
+    width: 100%;
+    position: relative;
+}
+
+.modal-header {
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.modal-body {
+    padding: 2rem 8rem ;
+}
+
+.modal-footer {
+    padding: 16px;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #ddd;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #aaa;
+    padding: 0;
+}
+
+.close-button:hover {
+    color: #333;
+}
+
+.is-success {
+    margin-right: 0.5rem;
+    padding: 0.3rem 1rem;
+}
+
+
+
+
+/* styles.css (or your preferred CSS file) */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+/* common css btrasp*/
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+.py-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;;
+}
+/*
 .App {
   text-align: center;
 }
@@ -36,3 +174,4 @@
     transform: rotate(360deg);
   }
 }
+*/

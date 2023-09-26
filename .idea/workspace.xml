@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c657a85b-1eb6-4d3f-83d6-c4b3f23202de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assignment-2/src/components/BookList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment-2/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment-2/src/components/NewBookModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment-2/src/components/booksData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-2/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-2/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-2/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-2/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-2/src/App.js" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,12 +41,25 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assignment-1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -119,11 +148,26 @@
       <workItem from="1695092910301" duration="11285000" />
       <workItem from="1695180464796" duration="4000" />
       <workItem from="1695286290930" duration="694000" />
+      <workItem from="1695741025510" duration="747000" />
+      <workItem from="1695747238809" duration="5751000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="142" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1695037211489">
