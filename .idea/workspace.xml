@@ -1,19 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:newUpstream" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:newUpstream" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:chore" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c657a85b-1eb6-4d3f-83d6-c4b3f23202de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assignment-2/src/components/BookList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-2/src/components/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-2/src/components/NewBookModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-2/src/components/booksData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment-3/src/components/BookList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment-3/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment-3/src/components/NewBookModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment-3/src/components/booksData.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-2/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-2/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-2/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-2/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-2/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-2/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-3/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-3/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-3/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-3/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-3/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-3/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-3/src/App.tsx" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,45 +50,47 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/assignment-2/package.json" />
+  </component>
   <component name="ProjectId" id="2VZICu1B375O27oqvfJyBQCcdqD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assignment-3/src" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\my-source\df-frontend-2023\assignment-3\src" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TomEE Server.Unnamed">
     <configuration name="Unnamed" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/assignment_1/" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
@@ -133,6 +162,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="preinstall" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/assignment-3/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="preinstall" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.preinstall" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -161,23 +205,57 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="5" key="#Plugins" timestamp="1696095403158">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="5" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1696095403158" />
     <state x="142" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1695037211489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="142" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1695037211489" />
+    <state x="452" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1696088186405">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="452" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1696088186405" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1696091975983">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1696091975983" />
     <state x="468" y="266" key="FileChooserDialogImpl" timestamp="1695286670859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="468" y="266" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1695286670859" />
+    <state width="1323" height="193" key="GridCell.Tab.0.bottom" timestamp="1696088474780">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="193" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1696088474780" />
+    <state width="1323" height="193" key="GridCell.Tab.0.center" timestamp="1696088474780">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="193" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1696088474780" />
+    <state width="1323" height="193" key="GridCell.Tab.0.left" timestamp="1696088474780">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="193" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1696088474780" />
+    <state width="1323" height="193" key="GridCell.Tab.0.right" timestamp="1696088474780">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="193" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1696088474780" />
+    <state x="466" y="66" key="RollbackChangesDialog" timestamp="1696086626874">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="466" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1696086626874" />
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1695050340557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -190,9 +268,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1695057465173" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1695050135957">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="443" y="158" width="672" height="475" key="search.everywhere.popup" timestamp="1696095365530">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="443" y="158" width="672" height="475" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1696095365530" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1695050135957" />
   </component>
 </project>
