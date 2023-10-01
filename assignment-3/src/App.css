@@ -1,4 +1,17 @@
 
+/* Dark Theme */
+.dark-theme {
+  background-color: #686464;
+  color: #000000;
+}
+
+/* Light Theme */
+.light-theme {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+
 
 /* Styles for labels */
 .label {
