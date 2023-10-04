@@ -9,7 +9,7 @@ interface Book {
   topic: string;
 }
 
-function BookList(): JSX.Element {
+function BookList(props): JSX.Element {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [currentPage, setCurrentPage] = useState<number>(1);
   const itemsPerPage: number = 5;
@@ -43,7 +43,7 @@ function BookList(): JSX.Element {
   };
 
   return (
-    <div className="content">
+    <div>
       <div className="d-flex justify-content-end">
         <input
           type="text"
@@ -51,11 +51,13 @@ function BookList(): JSX.Element {
           value={searchQuery}
           onChange={e => setSearchQuery(e.target.value)}
         />
-        <button onClick={() => setIsModalOpen(true)}>Add Book</button>
+        <button className="btn btn-primary" onClick={() => setIsModalOpen(true)}>Add Book</button>
       </div>
 
       <div>
-        <table>
+        <table
+          className={`table ${props.data ? 'table-dark' : ''}`}
+        >
           <thead>
             <tr>
               <th>#ID</th>
@@ -73,7 +75,7 @@ function BookList(): JSX.Element {
                 <td>{book.author}</td>
                 <td>{book.topic}</td>
                 <td>
-                  <button onClick={() => handleDelete(book.id)}>Delete</button>
+                  <button className="btn btn-danger" onClick={() => handleDelete(book.id)}>Delete</button>
                 </td>
               </tr>
             ))}
@@ -81,15 +83,14 @@ function BookList(): JSX.Element {
         </table>
 
         <div className="d-flex justify-content-end">
-          <button onClick={() => setCurrentPage(currentPage - 1)} disabled={currentPage === 1}>
-            Previous
+          <button className={`${currentPage === 1 ? 'button-link-disabled' : 'button-link'}`} onClick={() => setCurrentPage(currentPage - 1)} disabled={currentPage === 1}>
+            {'PREVIOUS '}
           </button>
           <span>
-            Page
             {currentPage}
           </span>
-          <button onClick={() => setCurrentPage(currentPage + 1)} disabled={endIndex >= filteredBooks.length}>
-            Next
+          <button className={`${endIndex >= filteredBooks.length ? 'button-link-disabled' : 'button-link'}`} onClick={() => setCurrentPage(currentPage + 1)} disabled={endIndex >= filteredBooks.length}>
+            {' NEXT'}
           </button>
         </div>
       </div>

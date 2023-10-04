@@ -95,10 +95,10 @@ function NewBookModal({ isOpen, onClose, onAddBook }: NewBookModalProps): JSX.El
         </div>
       </div>
       <div className="modal-footer">
-        <button className="button is-success" onClick={handleAddBook}>
+        <button className="btn btn-primary button is-success" onClick={handleAddBook}>
           Add Book
         </button>
-        <button className="button" onClick={onClose}>
+        <button className="btn btn-outline-danger button" onClick={onClose}>
           Cancel
         </button>
       </div>

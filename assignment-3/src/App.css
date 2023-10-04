@@ -4,13 +4,39 @@
   background-color: #686464;
   color: #000000;
 }
-
+.dark-theme {
+  background-color: #686464;
+  color: #000000;
+}
 /* Light Theme */
 .light-theme {
   background-color: #ffffff;
   color: #333333;
 }
-
+.swatch-purple {
+  color: #fff;
+  background-color: #6f42c1;
+}
+.button-link-disabled {
+  background: none!important;
+  border: none;
+  color: #77757a;
+  cursor: pointer;
+  text-transform: none;
+}
+.button-link {
+  background: none!important;
+  border: none;
+  color: #0000ff;
+  cursor: pointer;
+  text-transform: none;
+}
+.button-link:focus{
+  border: none !important;
+}
+.button-link:hover  {
+  text-decoration: underline;
+}
 
 
 /* Styles for labels */
@@ -66,7 +92,8 @@
   background-color: #fff; /* Background color of the modal */
   border-radius: 8px;
   width: 100%;
-  position: relative;
+  position: relative !important;
+  display: block !important;
 }
 
 .modal-header {
