@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.dark body {
+  background: #333333;
+  color: #e7e9eb;
+}
