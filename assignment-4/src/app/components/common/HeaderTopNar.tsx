@@ -1,8 +1,10 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
-import ToggleMode from './ToggleMode';
+import ThemeSwitch from '../ThemeSwitch';
 
-const Header = () => {
+const HeaderTopNar = () => {
   return (
     <header className="border-b border-slate-200 bg-gradient-to-r from-blue-900 via-red-500 to-blue-900 text-white">
       <div className="mx-auto max-w-7xl px-4">
@@ -10,10 +12,10 @@ const Header = () => {
           className={`flex h-[50px] items-center justify-between md:h-[80px]`}
         >
           <Link href="/" className="p-2 text-2xl font-bold">
-            Bookstore
+            Book store
           </Link>
           <div className="flex items-center gap-x-4">
-            <ToggleMode/>
+            <ThemeSwitch/>
             <div className="flex items-center gap-x-2">
               <Image
                 src="/header/avatar.jpg"
@@ -33,4 +35,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default HeaderTopNar

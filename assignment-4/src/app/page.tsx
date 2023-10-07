@@ -1,11 +1,63 @@
-import React from 'react'
-import Image from 'next/image'
-import BookList from '../components/BookList'
+'use client';
 
-export default function Home() {
+import { useSearchParams } from 'next/navigation';
+import { useState, useEffect, Suspense, useDeferredValue } from 'react';
+import { BookStoreType, SearchTermType } from '../model/Types';
+import BookManager from '../utils/BookManager';
+import { Table } from './components/Table';
+import Loading from './loading';
+import { Notification } from './hooks/Notification';
+import { Toaster } from './components/common/Toaster';
+
+const defaultBookStore: BookStoreType = {
+  page: 1,
+  total: 0,
+  totalPages: 0,
+  data: [],
+  perPage: 5,
+};
+
+export default function HomePage() {
+  const searchParams = useSearchParams();
+  const parsedPage = parseInt(searchParams?.get('page') ?? '1', 10) || 1;
+  const parsedTerm = searchParams?.get('query') || '';
+
+  const [bookStore, setBookStore] = useState<BookStoreType>(defaultBookStore);
+  const deferredQuery = useDeferredValue(bookStore);
+
+  const searchBook = async (curSearchTerm: SearchTermType) => {
+    const result = await BookManager.getList(curSearchTerm);
+    setBookStore(result);
+  };
+
+  useEffect(() => {
+    const searchTerm: SearchTermType = {
+      page: parsedPage,
+      perPage: 5,
+      query: parsedTerm,
+    };
+    searchBook(searchTerm);
+  }, [parsedTerm, parsedPage]);
+
+  const { toaster, clearToast } = Notification();
+
   return (
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <BookList />
-      </main>
-  )
+    <Suspense fallback={<Loading text="Books" />}>
+      {toaster && <Toaster toaster={toaster} clearToast={clearToast} />}
+      <Table bookStore={deferredQuery} />
+    </Suspense>
+  );
 }
+
+
+// import React from 'react'
+// import Image from 'next/image'
+// import BookList from '../components/BookList'
+//
+// export default function Home() {
+//   return (
+//       <main className="flex min-h-screen flex-col items-center justify-between p-24">
+//         <BookList />
+//       </main>
+//   )
+// }
