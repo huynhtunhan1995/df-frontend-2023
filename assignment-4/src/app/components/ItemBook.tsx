@@ -12,7 +12,7 @@ interface BookProps {
 
 const ItemBook: FC<BookProps> = ({ book }) => {
 
-  const { toaster, showToast, clearToast } = Notification();
+  const { showToast } = Notification();
   const router = useRouter();
 
   const handleDeleteClick = (book) => {

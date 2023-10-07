@@ -31,40 +31,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c657a85b-1eb6-4d3f-83d6-c4b3f23202de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assignment-4/src/app/404Page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-4/src/app/books/[id]/edit/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-4/src/app/books/[id]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-4/src/app/books/new/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-4/src/app/components/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-4/src/app/components/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-4/src/app/components/ItemBook.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-4/src/app/components/Modal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-4/src/app/components/Search.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-4/src/app/components/Table.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-4/src/app/components/ThemeSwitch.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-4/src/app/components/common/Dialog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-4/src/app/components/common/Pagination.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-4/src/app/components/common/Toaster.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-4/src/app/hooks/Notification.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-4/src/app/loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-4/src/model/Types.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-4/src/utils/BookManager.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-4/src/utils/NotificationManager.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-4/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignment-4/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-4/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-4/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-4/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-4/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-4/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-4/src/components/BookList.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-4/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-4/src/app/components/common/HeaderTopNar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-4/src/components/NewBookModal.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-4/src/components/ToggleMode.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-4/src/css/toggleCss.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-4/src/data/booksData.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-4/src/data/modeData.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-4/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-4/tailwind.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-4/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-4/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-4/src/app/404Page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-4/src/app/404Page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-4/src/app/components/ItemBook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-4/src/app/components/ItemBook.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +69,7 @@
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/assignment-2/package.json" />
+    <dismissed value="$PROJECT_DIR$/assignment-4/package.json" />
   </component>
   <component name="ProjectId" id="2VZICu1B375O27oqvfJyBQCcdqD" />
   <component name="ProjectLevelVcsManager">
@@ -116,7 +88,8 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assignment-4/src/app/components/common" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assignment-4/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -133,7 +106,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="settings.editor.splitter.proportion" value="0.2657841" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="ts.external.directory.path" value="F:\my-source\df-frontend-2023\assignment-4\node_modules\typescript\lib" />
@@ -262,7 +235,7 @@
       <workItem from="1696602201193" duration="19419000" />
       <workItem from="1696623420505" duration="141000" />
       <workItem from="1696623859252" duration="480000" />
-      <workItem from="1696656074944" duration="10084000" />
+      <workItem from="1696656074944" duration="12582000" />
     </task>
     <servers />
   </component>
@@ -285,11 +258,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="674" y="281" key="#ESLint" timestamp="1696655528194">
+    <state x="674" y="281" key="#ESLint" timestamp="1696668842496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="674" y="281" key="#ESLint/0.0.1920.1040/-1600.39.1600.860@0.0.1920.1040" timestamp="1696623236629" />
-    <state x="674" y="281" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1696655528194" />
+    <state x="674" y="281" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1696668842496" />
     <state x="845" y="383" width="528" height="274" key="#Notifications" timestamp="1696656099140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -329,10 +302,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1696659832910" />
-    <state x="468" y="266" width="836" height="652" key="FileChooserDialogImpl" timestamp="1696659317211">
+    <state x="468" y="266" width="836" height="652" key="FileChooserDialogImpl" timestamp="1696668528462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="468" y="266" width="836" height="652" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1696659317211" />
+    <state x="468" y="266" width="836" height="652" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1696668528462" />
     <state width="1323" height="193" key="GridCell.Tab.0.bottom" timestamp="1696088474780">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -354,11 +327,11 @@
     </state>
     <state x="466" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1696086626874" />
     <state x="655" y="94" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1696407109410" />
-    <state x="461" y="139" width="1185" height="726" key="SettingsEditor" timestamp="1696657042184">
+    <state x="461" y="139" width="1185" height="726" key="SettingsEditor" timestamp="1696667645354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="139" key="SettingsEditor/0.0.1920.1040/-1600.39.1600.860@0.0.1920.1040" timestamp="1696614248346" />
-    <state x="461" y="139" width="1185" height="726" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1696657042184" />
+    <state x="461" y="139" width="1185" height="726" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1696667645354" />
     <state x="759" y="217" key="VCS.ChangeListViewerDialog" timestamp="1696418530357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -371,11 +344,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1695050340557" />
-    <state x="355" y="251" width="934" height="582" key="find.popup" timestamp="1696666315652">
+    <state x="355" y="251" width="934" height="582" key="find.popup" timestamp="1696668822326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="229" width="835" height="606" key="find.popup/0.0.1920.1040/-1600.39.1600.860@0.0.1920.1040" timestamp="1696622757023" />
-    <state x="355" y="251" width="934" height="582" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1696666315652" />
+    <state x="355" y="251" width="934" height="582" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1696668822326" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1696406662803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

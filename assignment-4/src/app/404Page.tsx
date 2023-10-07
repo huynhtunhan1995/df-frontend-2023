@@ -9,7 +9,7 @@ export default function Custom404Page() {
           <h1 className="font-bold text-center text-[64px] text-gray-800 dark:text-white">
             404 - Page Not Found
           </h1>
-          <div className="">
+          <div>
             <Link href="/"
                   className="block  my-2 md py-4 px-8 text-center text-red-800 focus:outline-none focus:ring-2 focus:ring-opacity-50">
               Back to homepage
